@@ -49,11 +49,11 @@ Le site devra être en production (en ligne) le jour de la soutenance.
 ==================================================================
 
 Applications used :
-MAMP (obligatoire)
-Editeur WEB (type Sublime Text, Atom, Visual Studio Code) 
-Editeur de mockups (comme Balsamiq ou Figma)
-Bootstrap 5.3
-MySQLWorkBench pour le MLD, Mocodo pour le MCD
-FileZilla (ftp)
-Google Drive pour partage de fichiers
-Vidéo (QuickTime Player pour Mac et check Screen Recording Windows - panel droite ou encore OBS)
+- MAMP
+- Editeur WEB (type Sublime Text, Atom, Visual Studio Code) 
+- Editeur de mockups (Balsamiq, Figma)
+- Bootstrap 5.3
+- MySQLWorkBench pour le MLD, Mocodo pour le MCD
+- FileZilla (ftp)
+- Google Drive pour partage de fichiers
+- Vidéo (Check Screen Recording Windows - panel droite, OBS)
