@@ -6,6 +6,10 @@ We're 2 working on it, adding pages and completing our specifications.
 
 ==================================================================
 
+[ Les informations pour la base de donnée et les identifiants ont été modifié de l'original ]
+
+==================================================================
+
 Descriptif du projet :
 Le projet a pour but de réaliser un site internet en respectant les règles suivantes.
 Fonctionnalités de base :
