@@ -2,20 +2,16 @@
 $title = 'Inscription';
 include('includes/head.php');
 ?>
-	<body class="light-mode">
+	<body class="color-mode">
 		<?php include('includes/header.php'); ?>
         
   <section class="h-100 gradient-form">
   <div class="container py-5 h-100">
     <div class="row d-flex justify-content-center align-items-center h-100">
-      <!--<div class="col-xl-10">-->
-        <!--<div class="card rounded-3 text-black">-->
           <div class="row g-0">
             <div class="col-lg-6">
               <div class="card-body p-md-5 mx-md-4">
                 <div class="text-center">
-                  <!--<img src="images/logo.png"
-                    style="width: 185px;" alt="logo">-->
                   <h1 style="color:#c4a112;">S'inscrire</h1>
                   <?php include('includes/message.php'); ?>
                 </div>
@@ -35,6 +31,7 @@ include('includes/head.php');
                   <div class="form-outline mb-4">
                     <label class="form-label guide" for="password">Mot de passe :</label>   
                     <input type="password" id="password" class="form-control" name="password"/>
+                    <small id="pwdHelp" class="form-text">Le mot de passe doit contenir 6 caractères minimum.</small>
                   </div>
 
                   <div class="form-outline mb-4">
@@ -48,7 +45,7 @@ include('includes/head.php');
 
                   <div class="d-flex align-items-center justify-content-center pb-4">
                     <p class="mb-0 me-2" style="color:black;">Déjà membre ? Se connecter !</p>
-                    <a href="inscription.php"><button type="button" class="btn btn-outline-warning">Se connecter</button></a>
+                    <a href="captcha/captcha.php"><button type="button" class="btn btn-outline-warning">Se connecter</button></a>
                   </div>
 
                 </form>
@@ -62,8 +59,6 @@ include('includes/head.php');
                 </p>
               </div>
             </div>
-          <!--</div>-->
-        <!--</div>-->
       </div>
     </div>
   </div>

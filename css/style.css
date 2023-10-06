@@ -186,10 +186,6 @@ header .container {
   color: white;
 }
 
-.dark-mode-image{
-  background-image: url("../images/continueAvecBlanc.png");
-}
-
 .space {
   padding-left: 200px;
 }
@@ -238,7 +234,7 @@ header .container {
   position: fixed;
   top: 103px;
   left: 0;
-  width: 180px;
+  width: 150px;
   height: 100%;
   background-color: rgb(32, 32, 32);
   border-right: 3px solid #ddd;
@@ -337,4 +333,8 @@ header .container {
   font-weight: bold;
   font-style: normal;
   font-display: swap;
+}
+
+form h3 {
+  color:#181c2e;
 }

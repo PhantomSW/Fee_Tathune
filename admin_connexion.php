@@ -2,20 +2,16 @@
 $title = 'Administrateur';
 include('includes/head.php');
 ?>
-	<body class="light-mode">
+	<body class="color-mode">
 		<?php include('includes/header.php'); ?>
         
   <section class="h-100 gradient-form">
   <div class="container py-5 h-100">
     <div class="row d-flex justify-content-center align-items-center h-100">
-      <!--<div class="col-xl-10">-->
-        <!--<div class="card rounded-3 text-black">-->
           <div class="row g-0">
             <div class="col-lg-6">
               <div class="card-body p-md-5 mx-md-4">
                 <div class="text-center">
-                  <!--<img src="images/logo.png"
-                    style="width: 185px;" alt="logo">-->
                   <h1 style="color:#c4a112;">Se connecter</h1>
                   <?php include('includes/message.php'); ?>
                 </div>
@@ -42,12 +38,11 @@ include('includes/head.php');
               <div class="px-3 py-4 p-md-5 mx-md-4">
                 <h4 class="mb-4">Session d'administrateur</h4>
                 <p class="small mb-0">
-                Cette page est dédiée à la connection de nos membres.<br>Si vous n'en êtes pas un, cette page ne vous servira absolument pas !
+                Cette page est dédiée à la connection de nos membres.<br>
+                Si vous n'en êtes pas un, cette page ne vous servira absolument pas !
                 </p>
               </div>
             </div>
-          <!--</div>-->
-        <!--</div>-->
       </div>
     </div>
   </div>

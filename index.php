@@ -2,7 +2,7 @@
 $title = 'Fée Tathune';
 include('includes/head.php');
 ?>
-<body class="light-mode">
+<body class="color-mode">
 
     <?php include('includes/header.php'); ?>
 
@@ -11,17 +11,15 @@ include('includes/head.php');
         <h1>Bienvenue chez Fée Tathune !</h1>
         
         <?php include('includes/message.php'); ?>
-        <?= isset($_SESSION['email']) ? '<p>[Test-Client]-> Connecté</p>' : '<p>[Test-Client]-> Déconnecté</p>'; ?>
-        <?= isset($_SESSION['code']) ? '<p>[Test-Admin]-> Connecté</p>' : '<p>[Test-Admin]-> Déconnecté</p>'; ?>
-
         <div class="row mb-1">
             <div class="col-lg-2"></div>
-            <div class="col-lg-4">
-                <button id="button1" class="" onclick=""><a href="inscription.php"><img src="images/binanceinscription.png" width="325px"></a></button><br>
-                <button id="continue" class="" onclick=""><img id="galerie" src="images/continueAvecNoir.png" width="325px"></button><br>
-                <button id="button2" class="" onclick=""><a href="connexion.php"><img src="images/googleoui.png" width="325px"></a></button><br>
+            <div class="col-lg-5">
+                <a href="inscription.php"><img class="rounded" src="images/binanceinscription.png" width="325px"></a><br>
+                <p class="mt-3">&nbsp;&nbsp;─────&nbsp;&nbsp;&nbsp; ou continuer avec&nbsp;&nbsp;&nbsp; ─────</p>
+                <a href="connexion.php"><img class="rounded" src="images/googleoui.png" width="325px"></a><br>
             </div>
         </div>
+</div>
         <br><br><br><br>
 
         <div class="row mb-3">
@@ -32,7 +30,7 @@ include('includes/head.php');
             </div>
             <div class="col-lg-4">
                 <img class="img-fluid" src="images/bitcoin.jpg" alt="image">
-                <p><strong>Fée Tathune<br></strong></p>
+                <p class="text-center"><strong>Fée Tathune<br></strong></p>
             </div>
         </div>
 
@@ -42,7 +40,7 @@ include('includes/head.php');
             <div class="col-lg-1"></div>
             <div class="col-lg-4">
                 <img class="img-fluid" src="images/tradingnon.png" alt="image">
-                <p><strong>Trading<br></strong></p>
+                <p class="text-center"><strong>Trading<br></strong></p>
             </div>
             <div class="col-lg-6">
                 <h2>Notre service trading à votre service</h2>
@@ -60,7 +58,7 @@ include('includes/head.php');
             </div>
             <div class="col-lg-4">
                 <img class="img-fluid" src="images/coursdistanciel.png" alt="image">
-                <p><strong>Cours en distanciel<br></strong></p>
+                <p class="text-center"><strong>Cours en distanciel<br></strong></p>
             </div>
         </div>
 

@@ -19,8 +19,18 @@
 
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0">
           <h6 class="text-uppercase fw-bold">Session</h6>
-          <a href="index.php" style="text-decoration:none; color:#212529BF;">Client</a><br>
-          <a href="admin_connexion.php" style="text-decoration:none; color:#212529BF;">Administrateur</a>
+
+        <?php if(isset($_SESSION['code'])) {
+          echo '<a href="admin_utilisateurs.php" style="text-decoration:none; color:#212529BF;">Administrateur</a>';
+        } else { if(isset($_SESSION['connect'])) {
+          echo '<a href="index.php" style="text-decoration:none; color:#212529BF;">Client</a><br>';
+          } else {
+            echo '<a href="captcha/captcha.php" style="text-decoration:none; color:#212529BF;">Client</a><br>
+            <a href="admin_connexion.php" style="text-decoration:none; color:#212529BF;">Administrateur</a>';
+          }
+        }
+?>
+
         </div>
       </div>
     </div>
