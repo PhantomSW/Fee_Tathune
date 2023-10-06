@@ -26,9 +26,9 @@ include('includes/head.php');
             // include('includes/bdd.php'); 
 
 // Informations de connexion à la base de données
-$host = "54.36.190.19";
-$username = "user";
-$password = "wordpass";
+$host = "123.123.123.123";
+$username = "username";
+$password = "password";
 $database = "FeeTathune";
 
 
